@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 5%;
+    background-color: #1F2937;
+    height: 500px;
+    width: 550px;
+}
+
+h1 {
+    font-family: 'Karla';
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 40px;
+    letter-spacing: -0.025em;
+}
+
+p {
+    font-weight: 400;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+#second {
+    color: #4ADF86;
+}
+
+hr {
+    border: 1px solid #2F3E53;
+}
+
+button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 9px 17px 9px 15px;
+    width: 250px;
+    height: 50px;
+    font-weight: 500;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    background: #273549;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    color: #55F991;
+
+}
+
+#generate {
+
+
+    width: 191px;
+    height: 42px;
+
+    background: #10B981;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+    /* text-base/leading-6/font-medium */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+
+}
+
+#pw2 {
+    float: right;
+    margin-right: 0px;
+    align-self: right;
+}
